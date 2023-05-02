@@ -1,0 +1,43 @@
+// variables 
+@import "../utilidades/variables";
+
+@import "../utilidades/mixin";
+
+@import "../utilidades/extend";
+
+
+/* estilos de servicios */
+
+
+header{
+    background-color: $color-body;
+    div{
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            
+        }
+    }
+}
+
+
+
+main{
+
+    .servicios{
+        text-align: center;
+        background-color: rgb(208, 230, 250);
+    }
+    
+    .servicios:hover{
+        border-bottom: 2px groove ;
+        background-color: rgb(208, 230, 250);
+    }
+
+
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+}

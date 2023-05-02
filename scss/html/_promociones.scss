@@ -1,0 +1,25 @@
+// variables 
+@import "../utilidades/variables";
+
+@import "../utilidades/mixin";
+
+@import "../utilidades/extend";
+
+
+/* estilos de promociones */
+
+
+
+main{
+    ul{
+        p{
+            text-align: center;
+            background-color: rgb(208, 230, 250);
+        }
+
+        p:hover{
+            border-bottom: 2px groove ;
+            background-color: rgb(208, 230, 250)
+        }
+    }
+}

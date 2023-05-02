@@ -1,0 +1,99 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilos de home */
+body {
+  background-color: #4aafb6;
+  font-family: 'Merrieweather Sans', sans-serif; }
+  body header {
+    background-color: #4aafb6;
+    font-family: 'Merrieweather Sans', sans-serif; }
+    body header .tintoreria {
+      background-color: #d0e6fa;
+      text-align: center; }
+      body header .tintoreria .titulo {
+        font-size: x-large;
+        font-style: initial;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      body header .tintoreria .subtitulo {
+        background-color: #d0e6fa;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large; }
+    body header .color-menu {
+      color: #f3ebeb; }
+    body header .color-menu:hover {
+      border-bottom: 2px solid #258991;
+      color: black; }
+    body header .subtitulo {
+      font-size: 15px;
+      font-style: oblique; }
+  body img {
+    width: 50px;
+    height: 50px; }
+  body main {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    font-weight: bold; }
+    body main .ital {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 0.5rem;
+      margin: 1rem 3rem 1rem 3rem; }
+    body main div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  body footer {
+    background-color: #d0e6fa;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    position: relative; }
+    body footer p {
+      font: medium; }
+
+/* estilos de quienes somos */
+/* estilos de servicios */
+header {
+  background-color: #4aafb6; }
+  header div h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large; }
+
+main .servicios {
+  text-align: center;
+  background-color: #d0e6fa; }
+
+main .servicios:hover {
+  border-bottom: 2px groove;
+  background-color: #d0e6fa; }
+
+main ul li {
+  list-style: none; }
+
+/* estilos de promociones */
+main ul p {
+  text-align: center;
+  background-color: #d0e6fa; }
+
+main ul p:hover {
+  border-bottom: 2px groove;
+  background-color: #d0e6fa; }
+
+/* estilos de contacto */
+body {
+  background-color: #4aafb6;
+  font-family: 'Merrieweather Sans', sans-serif; }
+
+main div {
+  display: flex;
+  justify-content: center; }

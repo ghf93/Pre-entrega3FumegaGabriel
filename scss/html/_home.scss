@@ -1,0 +1,104 @@
+// variables 
+@import "../utilidades/variables";
+
+// mixin 
+
+@import "../utilidades/mixin";
+
+@import "../utilidades/extend";
+
+
+/* estilos de home */
+
+body{
+    background-color: rgb(74, 175, 182);
+    font-family: 'Merrieweather Sans', sans-serif;
+
+    header{
+
+    background-color: $color-body;
+    font-family: 'Merrieweather Sans', sans-serif;
+
+    .tintoreria{
+    background-color: $color-principal;
+    text-align: center;
+
+    .titulo{
+        font-size: x-large;
+        font-style: initial;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .subtitulo{
+        background-color: rgb(208, 230, 250);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+    }
+    }
+    .color-menu{
+        color: rgb(243, 235, 235);
+    }
+    
+    .color-menu:hover{
+        border-bottom: 2px solid rgb(37, 137, 145);
+        color:black;
+    }
+
+        .subtitulo{
+        font-size: 15px;
+        font-style: oblique;
+        
+        }
+   
+    }
+
+
+    img{
+    width: 50px;
+    height: 50px;
+    }
+
+       
+
+
+
+    main{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-left : 100px;
+    padding-right: 100px;
+    margin: 10px;
+    font-weight: bold; 
+        
+        .ital{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            gap: 0.5rem;
+            margin: 1rem 3rem 1rem 3rem;
+        }
+        
+
+        div img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+    }
+
+    footer{
+    background-color: rgb(208, 230, 250);
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;   
+    margin-top: 40px; 
+    position: relative;
+
+        p{
+        font: medium;
+     }
+}
+
+}

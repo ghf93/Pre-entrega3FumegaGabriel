@@ -1,0 +1,24 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// import variables
+
+@import "utilidades/variables";
+
+// import html
+
+@import "html/home";
+
+@import "html/quienes-somos";
+
+@import "html/servicios";
+
+@import "html/promociones";
+
+@import "html/contacto";

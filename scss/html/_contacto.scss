@@ -1,0 +1,21 @@
+// variables 
+@import "../utilidades/variables";
+
+@import "../utilidades/mixin";
+
+@import "../utilidades/extend";
+
+/* estilos de contacto */
+
+body{
+    background-color: rgb(74, 175, 182);
+    font-family: 'Merrieweather Sans', sans-serif;
+}
+
+
+main{
+    div{
+        display: flex;
+        justify-content: center;
+        }
+}
